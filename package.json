@@ -1,0 +1,14 @@
+{
+  "name": "webpack-combine-loaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "combineLoaders.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qs": "^5.2.0"
+  }
+}
