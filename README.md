@@ -1,5 +1,7 @@
 # webpack-combine-loaders
 
+Converts an array of loaders defined using the `{loader, query}` object syntax into a single loader string. Useful for dealing with plugins which only understand the loader string syntax.
+
 ```js
 combineLoaders([
   {
