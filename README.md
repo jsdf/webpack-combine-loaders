@@ -89,3 +89,8 @@ Instead, make a combined loader like so:
   ]),
 }
 ```
+
+### Changelog
+
+- 2.0.0 - no longer uri-encodes loader params
+- 1.0.0 - initial release
