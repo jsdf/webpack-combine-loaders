@@ -6,6 +6,7 @@
   "scripts": {
     "tap": "tap test",
     "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
     "test": "eslint . && tap test"
   },
   "author": "",
