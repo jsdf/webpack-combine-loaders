@@ -4,8 +4,9 @@
   "description": "",
   "main": "combineLoaders.js",
   "scripts": {
+    "tap": "tap test",
     "lint": "eslint .",
-    "test": "eslint ."
+    "test": "eslint . && tap test"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "qs": "^5.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1"
+    "eslint": "^3.9.1",
+    "tap": "^8.0.0"
   }
 }
