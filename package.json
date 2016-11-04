@@ -4,11 +4,15 @@
   "description": "",
   "main": "combineLoaders.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "eslint ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "qs": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1"
   }
 }
