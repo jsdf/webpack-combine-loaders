@@ -23,7 +23,7 @@ combineLoaders([
     },
   },
 ]);
-// => 'css-loader?modules=true&sourceMap=true&localIdentName=%5Bname%5D__%5Blocal%5D--%5Bhash%3Abase64%3A5%5D!sass-loader?sourceMap=true&includePaths%5B%5D=app%2Fassets%2Fstylesheets&includePaths%5B%5D=app%2Fassets%2Fstylesheets%2Flegacy'
+// => 'css-loader?modules=true&sourceMap=true&localIdentName=[name]__[local]--[hash:base64:5]!sass-loader?sourceMap=true&includePaths[]=app/assets/stylesheets&includePaths[]=app/assets/stylesheets/legacy'
 ```
 ## why?
 
