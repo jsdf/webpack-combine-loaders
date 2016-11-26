@@ -16,7 +16,7 @@ function combineLoaders(loaders) {
       query = '?' + query;
     }
 
-    return loaderEntry.loader + query;
+    return (loaderEntry.loader || loaderEntry.use) + query;
   }).join('!');
 }
 
