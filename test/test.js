@@ -27,3 +27,29 @@ test('example', (t) => {
   t.equals(output, expected);
   t.end();
 });
+
+test('example (webpack 2)', (t) => {
+  const output = combineLoaders([
+    {
+      use: 'css-loader',
+      options: {
+        modules: true,
+        sourceMap: true,
+        localIdentName: '[name]__[local]--[hash:base64:5]',
+      },
+    },
+    {
+      use: 'sass-loader',
+      options: {
+        sourceMap: true,
+        includePaths: [
+          'app/assets/stylesheets',
+          'app/assets/stylesheets/legacy',
+        ],
+      },
+    },
+  ]);
+  const expected = 'css-loader?modules=true&sourceMap=true&localIdentName=[name]__[local]--[hash:base64:5]!sass-loader?sourceMap=true&includePaths[]=app/assets/stylesheets&includePaths[]=app/assets/stylesheets/legacy';
+  t.equals(output, expected);
+  t.end();
+});
