@@ -92,6 +92,7 @@ Instead, make a combined loader like so:
 
 ### Changelog
 
+- 2.0.4 - Upgrade `qs` dependency ([#10](https://github.com/jsdf/webpack-combine-loaders/pull/10)). Drops support for Node < 4.
 - 2.0.3 - add support for webpack2 loader "options" (with fallback to "query")
 - 2.0.0 - no longer uri-encodes loader params
 - 1.0.0 - initial release
