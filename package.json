@@ -9,6 +9,10 @@
     "lint-fix": "eslint . --fix",
     "test": "eslint . && tap test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdf/webpack-combine-loaders.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
